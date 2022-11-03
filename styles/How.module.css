@@ -1,0 +1,38 @@
+.wrapper {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  text-align: center;
+  background: white;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px 0;
+}
+
+.flex .item {
+  /* border: 1px solid lightgrey; */
+  padding: 10px;
+}
+
+.flex .item:hover {
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+
+.flex .title {
+  font-weight: bold;
+  max-width: 250px;
+}
+
+@media (max-width: 760px) {
+  .flex {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
