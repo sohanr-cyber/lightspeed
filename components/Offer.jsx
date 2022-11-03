@@ -27,9 +27,9 @@ const Offer = () => {
         <h1>
           We Gave The <span>Best</span> Offer
         </h1>
-        <div className={styles.text__yellow}>
-          Get Special Offer Untill 30 December 2022
-        </div>
+//         <div className={styles.text__yellow}>
+//           Get Special Offer Untill 30 December 2022
+//         </div>
         <div className={styles.offers}>
           {data.map((item) => (
             <div className={styles.offer}>
